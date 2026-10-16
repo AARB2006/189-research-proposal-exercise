@@ -1,0 +1,33 @@
+\documentclass[12pt]{article}
+
+\input{preamble}
+\title{Secret Muna ang Title}
+\author{Mondragon, Agustus}
+\date{\today}
+\begin{document}
+
+\pagenumbering{roman}
+\maketitle
+\thispagestyle{empty}
+\clearpage
+
+\tableofcontents
+\clearpage
+\listoffigures
+\clearpage
+\listoftables
+\clearpage
+\listofalgorithms
+\clearpage
+\pagenumbering{arabic}
+
+\input{Chapters/01-introduction}
+\input{Chapters/02-related-work}
+\input{Chapters/03-problem-statement}
+\input{Chapters/04-objectives}
+\input{Chapters/05-methodology}
+
+\clearpage
+\printbibliography
+
+\end{document}
