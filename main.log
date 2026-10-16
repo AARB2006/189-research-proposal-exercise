@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.7)  16 OCT 2026 13:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.7)  16 OCT 2026 14:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -329,40 +329,92 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks35
 \@floatcapt=\box57
 )
-(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\alg
-orithm.sty
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
-nment
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendla
+yer\tikz.sty
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer
+\pgf.sty
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\
+pgfrcs.sty
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilitie
+s\pgfutil-common.tex
+\pgfutil@everybye=\toks36
+\pgfutil@tempdima=\dimen192
+\pgfutil@tempdimb=\dimen193
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilitie
+s\pgfutil-latex.def
+\pgfutil@abb=\box58
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilitie
+s\pgfrcs.code.tex
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revi
+sion.tex)
+Package: pgfrcs 2026-08-01 v3.1.12 (3.1.12)
+))
+Package: pgf 2026-08-01 v3.1.12 (3.1.12)
 
-(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.st
-y
-Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-)
-\@float@every@algorithm=\toks36
-\c@algorithm=\count311
-)
-(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\a
-lgpseudocode.sty
-Package: algpseudocode 
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer
+\pgfcore.sty
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlaye
+r\pgfsys.sty
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemla
+yer\pgfsys.code.tex
+Package: pgfsys 2026-08-01 v3.1.12 (3.1.12)
 
-(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\a
-lgorithmicx.sty
-Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilitie
+s\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks37
+\pgfkeys@temptoks=\toks38
 
-Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count312
-\c@ALG@rem=\count313
-\c@ALG@nested=\count314
-\ALG@tlm=\skip58
-\ALG@thistlm=\skip59
-\c@ALG@Lnr=\count315
-\c@ALG@blocknr=\count316
-\c@ALG@storecount=\count317
-\c@ALG@tmpcounter=\count318
-\ALG@tmplength=\skip60
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilitie
+s\pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks39
+))
+\pgf@x=\dimen194
+\pgf@y=\dimen195
+\pgf@xa=\dimen196
+\pgf@ya=\dimen197
+\pgf@xb=\dimen198
+\pgf@yb=\dimen199
+\pgf@xc=\dimen256
+\pgf@yc=\dimen257
+\pgf@xd=\dimen258
+\pgf@yd=\dimen259
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count311
+\c@pgf@countb=\count312
+\c@pgf@countc=\count313
+\c@pgf@countd=\count314
+\t@pgf@toka=\toks40
+\t@pgf@tokb=\toks41
+\t@pgf@tokc=\toks42
+\pgf@sys@id@count=\count315
+
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemla
+yer\pgf.cfg
+File: pgf.cfg 2026-08-01 v3.1.12 (3.1.12)
 )
-Document Style - pseudocode environments for use with the `algorithmicx' style
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemla
+yer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2026-08-01 v3.1.12 (3.1.12)
+
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemla
+yer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2026-08-01 v3.1.12 (3.1.12)
+)))
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemla
+yer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfsyssoftpath@smallbuffer@items=\count316
+\pgfsyssoftpath@bigbuffer@items=\count317
 )
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemla
+yer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2026-08-01 v3.1.12 (3.1.12)
+))
 (C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.
 sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
@@ -385,16 +437,281 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcore.code.tex
+Package: pgfcore 2026-08-01 v3.1.12 (3.1.12)
+
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+math.code.tex
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathutil.code.tex)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathparser.code.tex
+\pgfmath@dimen=\dimen260
+\pgfmath@count=\count318
+\pgfmath@box=\box59
+\pgfmath@toks=\toks43
+\pgfmath@stack@operand=\toks44
+\pgfmath@stack@operation=\toks45
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathfunctions.code.tex)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathfunctions.basic.code.tex)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathfunctions.trigonometric.code.tex)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathfunctions.random.code.tex)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathfunctions.comparison.code.tex)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathfunctions.base.code.tex)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathfunctions.round.code.tex)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathfunctions.misc.code.tex)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathfunctions.integerarithmetics.code.tex)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathcalc.code.tex)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count319
+))
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+int.code.tex)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@picminx=\dimen261
+\pgf@picmaxx=\dimen262
+\pgf@picminy=\dimen263
+\pgf@picmaxy=\dimen264
+\pgf@pathminx=\dimen265
+\pgf@pathmaxx=\dimen266
+\pgf@pathminy=\dimen267
+\pgf@pathmaxy=\dimen268
+\pgf@xx=\dimen269
+\pgf@xy=\dimen270
+\pgf@yx=\dimen271
+\pgf@yy=\dimen272
+\pgf@zx=\dimen273
+\pgf@zy=\dimen274
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@path@lastx=\dimen275
+\pgf@path@lasty=\dimen276
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@shorten@end@additional=\dimen277
+\pgf@shorten@start@additional=\dimen278
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfpic=\box60
+\pgf@hbox=\box61
+\pgf@layerbox@main=\box62
+\pgf@picture@serial@count=\count320
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgflinewidth=\dimen279
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@pt@x=\dimen280
+\pgf@pt@y=\dimen281
+\pgf@pt@temp=\dimen282
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfarrowsep=\dimen283
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@max=\dimen284
+\pgf@sys@shading@range@num=\count321
+\pgf@shadingcount=\count322
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfexternal@startupbox=\box63
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)))
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\
+pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfnodeparttextbox=\box64
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\
+pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibil
+ity\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2026-08-01 v3.1.12 (3.1.12)
+\pgf@nodesepstart=\dimen285
+\pgf@nodesepend=\dimen286
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibil
+ity\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2026-08-01 v3.1.12 (3.1.12)
+))
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\
+pgffor.sty
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\
+pgfkeys.sty
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilitie
+s\pgfkeys.code.tex))
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfma
+th.sty
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+math.code.tex))
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilitie
+s\pgffor.code.tex
+Package: pgffor 2026-08-01 v3.1.12 (3.1.12)
+\pgffor@iter=\dimen287
+\pgffor@skip=\dimen288
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
+))
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontend
+layer/tikz\tikz.code.tex
+Package: tikz 2026-08-01 v3.1.12 (3.1.12)
+
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/librarie
+s\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@plot@mark@count=\count323
+\pgfplotmarksize=\dimen289
+)
+\tikz@lastx=\dimen290
+\tikz@lasty=\dimen291
+\tikz@lastxsaved=\dimen292
+\tikz@lastysaved=\dimen293
+\tikz@lastmovetox=\dimen294
+\tikz@lastmovetoy=\dimen295
+\tikzleveldistance=\dimen296
+\tikzsiblingdistance=\dimen297
+\tikz@figbox=\box65
+\tikz@figbox@bg=\box66
+\tikz@tempbox=\box67
+\tikz@tempbox@bg=\box68
+\tikztreelevel=\count324
+\tikznumberofchildren=\count325
+\tikznumberofcurrentchild=\count326
+\tikz@fig@count=\count327
+
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\
+pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfmatrixcurrentrow=\count328
+\pgfmatrixcurrentcolumn=\count329
+\pgf@matrix@numberofcolumns=\count330
+)
+\tikz@expandcount=\count331
+
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontend
+layer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)))
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/librarie
+s\pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfarrowinset=\dimen298
+\pgfarrowlength=\dimen299
+\pgfarrowwidth=\dimen300
+\pgfarrowlinewidth=\dimen301
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontend
+layer/tikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\alg
+orithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.st
+y
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks48
+\c@algorithm=\count332
+)
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\a
+lgpseudocode.sty
+Package: algpseudocode 
+
+(C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\a
+lgorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count333
+\c@ALG@rem=\count334
+\c@ALG@nested=\count335
+\ALG@tlm=\skip58
+\ALG@thistlm=\skip59
+\c@ALG@Lnr=\count336
+\c@ALG@blocknr=\count337
+\c@ALG@storecount=\count338
+\c@ALG@tmpcounter=\count339
+\ALG@tmplength=\skip60
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+)
 (C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquo
 tes.sty
 Package: csquotes 2026-05-19 v5.2p context-sensitive quotations (JAW)
-\csq@reset=\count319
-\csq@gtype=\count320
-\csq@glevel=\count321
-\csq@qlevel=\count322
-\csq@maxlvl=\count323
-\csq@tshold=\count324
-\csq@ltx@everypar=\toks37
+\csq@reset=\count340
+\csq@gtype=\count341
+\csq@glevel=\count342
+\csq@qlevel=\count343
+\csq@maxlvl=\count344
+\csq@tshold=\count345
+\csq@ltx@everypar=\toks49
 
 (C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquo
 tes.def
@@ -439,7 +756,7 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 (C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.
 sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count325
+\lrq@indent=\count346
 
 (C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.
 def
@@ -449,49 +766,49 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count326
-\c@listtotal=\count327
-\c@listcount=\count328
-\c@liststart=\count329
-\c@liststop=\count330
-\c@citecount=\count331
-\c@citetotal=\count332
-\c@multicitecount=\count333
-\c@multicitetotal=\count334
-\c@instcount=\count335
-\c@maxnames=\count336
-\c@minnames=\count337
-\c@maxitems=\count338
-\c@minitems=\count339
-\c@citecounter=\count340
-\c@maxcitecounter=\count341
-\c@savedcitecounter=\count342
-\c@uniquelist=\count343
-\c@uniquename=\count344
-\c@refsection=\count345
-\c@refsegment=\count346
-\c@maxextratitle=\count347
-\c@maxextratitleyear=\count348
-\c@maxextraname=\count349
-\c@maxextradate=\count350
-\c@maxextraalpha=\count351
-\c@abbrvpenalty=\count352
-\c@highnamepenalty=\count353
-\c@lownamepenalty=\count354
-\c@maxparens=\count355
-\c@parenlevel=\count356
-\blx@tempcnta=\count357
-\blx@tempcntb=\count358
-\blx@tempcntc=\count359
-\c@blx@maxsection=\count360
-\blx@maxsegment@0=\count361
-\blx@notetype=\count362
-\blx@parenlevel@text=\count363
-\blx@parenlevel@foot=\count364
-\blx@sectionciteorder@0=\count365
-\blx@sectionciteorderinternal@0=\count366
-\blx@entrysetcounter=\count367
-\blx@biblioinstance=\count368
+\c@tabx@nest=\count347
+\c@listtotal=\count348
+\c@listcount=\count349
+\c@liststart=\count350
+\c@liststop=\count351
+\c@citecount=\count352
+\c@citetotal=\count353
+\c@multicitecount=\count354
+\c@multicitetotal=\count355
+\c@instcount=\count356
+\c@maxnames=\count357
+\c@minnames=\count358
+\c@maxitems=\count359
+\c@minitems=\count360
+\c@citecounter=\count361
+\c@maxcitecounter=\count362
+\c@savedcitecounter=\count363
+\c@uniquelist=\count364
+\c@uniquename=\count365
+\c@refsection=\count366
+\c@refsegment=\count367
+\c@maxextratitle=\count368
+\c@maxextratitleyear=\count369
+\c@maxextraname=\count370
+\c@maxextradate=\count371
+\c@maxextraalpha=\count372
+\c@abbrvpenalty=\count373
+\c@highnamepenalty=\count374
+\c@lownamepenalty=\count375
+\c@maxparens=\count376
+\c@parenlevel=\count377
+\blx@tempcnta=\count378
+\blx@tempcntb=\count379
+\blx@tempcntc=\count380
+\c@blx@maxsection=\count381
+\blx@maxsegment@0=\count382
+\blx@notetype=\count383
+\blx@parenlevel@text=\count384
+\blx@parenlevel@foot=\count385
+\blx@sectionciteorder@0=\count386
+\blx@sectionciteorderinternal@0=\count387
+\blx@entrysetcounter=\count388
+\blx@biblioinstance=\count389
 \labelnumberwidth=\skip61
 \labelalphawidth=\skip62
 \biblabelsep=\skip63
@@ -500,12 +817,12 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibinitsep=\skip66
 \bibparsep=\skip67
 \bibhang=\skip68
-\blx@bcfin=\read2
-\blx@bcfout=\write3
+\blx@bcfin=\read3
+\blx@bcfout=\write4
 \blx@langwohyphens=\language79
-\c@mincomprange=\count369
-\c@maxcomprange=\count370
-\c@mincompwidth=\count371
+\c@mincomprange=\count390
+\c@maxcomprange=\count391
+\c@mincompwidth=\count392
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -517,74 +834,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count372
-\c@savedafterword=\count373
-\c@annotator=\count374
-\c@savedannotator=\count375
-\c@author=\count376
-\c@savedauthor=\count377
-\c@bookauthor=\count378
-\c@savedbookauthor=\count379
-\c@commentator=\count380
-\c@savedcommentator=\count381
-\c@editor=\count382
-\c@savededitor=\count383
-\c@editora=\count384
-\c@savededitora=\count385
-\c@editorb=\count386
-\c@savededitorb=\count387
-\c@editorc=\count388
-\c@savededitorc=\count389
-\c@foreword=\count390
-\c@savedforeword=\count391
-\c@holder=\count392
-\c@savedholder=\count393
-\c@introduction=\count394
-\c@savedintroduction=\count395
-\c@namea=\count396
-\c@savednamea=\count397
-\c@nameb=\count398
-\c@savednameb=\count399
-\c@namec=\count400
-\c@savednamec=\count401
-\c@translator=\count402
-\c@savedtranslator=\count403
-\c@shortauthor=\count404
-\c@savedshortauthor=\count405
-\c@shorteditor=\count406
-\c@savedshorteditor=\count407
-\c@labelname=\count408
-\c@savedlabelname=\count409
-\c@institution=\count410
-\c@savedinstitution=\count411
-\c@lista=\count412
-\c@savedlista=\count413
-\c@listb=\count414
-\c@savedlistb=\count415
-\c@listc=\count416
-\c@savedlistc=\count417
-\c@listd=\count418
-\c@savedlistd=\count419
-\c@liste=\count420
-\c@savedliste=\count421
-\c@listf=\count422
-\c@savedlistf=\count423
-\c@location=\count424
-\c@savedlocation=\count425
-\c@organization=\count426
-\c@savedorganization=\count427
-\c@origlocation=\count428
-\c@savedoriglocation=\count429
-\c@origpublisher=\count430
-\c@savedorigpublisher=\count431
-\c@publisher=\count432
-\c@savedpublisher=\count433
-\c@language=\count434
-\c@savedlanguage=\count435
-\c@origlanguage=\count436
-\c@savedoriglanguage=\count437
-\c@pageref=\count438
-\c@savedpageref=\count439
+\c@afterword=\count393
+\c@savedafterword=\count394
+\c@annotator=\count395
+\c@savedannotator=\count396
+\c@author=\count397
+\c@savedauthor=\count398
+\c@bookauthor=\count399
+\c@savedbookauthor=\count400
+\c@commentator=\count401
+\c@savedcommentator=\count402
+\c@editor=\count403
+\c@savededitor=\count404
+\c@editora=\count405
+\c@savededitora=\count406
+\c@editorb=\count407
+\c@savededitorb=\count408
+\c@editorc=\count409
+\c@savededitorc=\count410
+\c@foreword=\count411
+\c@savedforeword=\count412
+\c@holder=\count413
+\c@savedholder=\count414
+\c@introduction=\count415
+\c@savedintroduction=\count416
+\c@namea=\count417
+\c@savednamea=\count418
+\c@nameb=\count419
+\c@savednameb=\count420
+\c@namec=\count421
+\c@savednamec=\count422
+\c@translator=\count423
+\c@savedtranslator=\count424
+\c@shortauthor=\count425
+\c@savedshortauthor=\count426
+\c@shorteditor=\count427
+\c@savedshorteditor=\count428
+\c@labelname=\count429
+\c@savedlabelname=\count430
+\c@institution=\count431
+\c@savedinstitution=\count432
+\c@lista=\count433
+\c@savedlista=\count434
+\c@listb=\count435
+\c@savedlistb=\count436
+\c@listc=\count437
+\c@savedlistc=\count438
+\c@listd=\count439
+\c@savedlistd=\count440
+\c@liste=\count441
+\c@savedliste=\count442
+\c@listf=\count443
+\c@savedlistf=\count444
+\c@location=\count445
+\c@savedlocation=\count446
+\c@organization=\count447
+\c@savedorganization=\count448
+\c@origlocation=\count449
+\c@savedoriglocation=\count450
+\c@origpublisher=\count451
+\c@savedorigpublisher=\count452
+\c@publisher=\count453
+\c@savedpublisher=\count454
+\c@language=\count455
+\c@savedlanguage=\count456
+\c@origlanguage=\count457
+\c@savedoriglanguage=\count458
+\c@pageref=\count459
+\c@savedpageref=\count460
 \shorthandwidth=\skip69
 \shortjournalwidth=\skip70
 \shortserieswidth=\skip71
@@ -612,19 +929,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 (C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\bibla
 tex.def
 File: biblatex.def 2026/08/13 v3.22 biblatex compatibility (PK/MW)
-\c@textcitecount=\count440
-\c@textcitetotal=\count441
-\c@textcitemaxnames=\count442
-\c@biburlbigbreakpenalty=\count443
-\c@biburlbreakpenalty=\count444
-\c@biburlnumpenalty=\count445
-\c@biburlucpenalty=\count446
-\c@biburllcpenalty=\count447
+\c@textcitecount=\count461
+\c@textcitetotal=\count462
+\c@textcitemaxnames=\count463
+\c@biburlbigbreakpenalty=\count464
+\c@biburlbreakpenalty=\count465
+\c@biburlnumpenalty=\count466
+\c@biburlucpenalty=\count467
+\c@biburllcpenalty=\count468
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count448
+\c@smartand=\count469
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
@@ -650,8 +967,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\s
 tandard.bbx
 File: standard.bbx 2026/08/13 v3.22 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count449
-\c@bbx:relatedtotal=\count450
+\c@bbx:relatedcount=\count470
+\c@bbx:relatedtotal=\count471
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
@@ -693,7 +1010,7 @@ Package: expl3 2026-08-10 L3 programming layer (loader)
 (C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\l3bac
 kend-pdftex.def
 File: l3backend-pdftex.def 2026-08-10 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count451
+\l__color_backend_stack_int=\count472
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2026-08-10 L3 programming layer (loader) 
@@ -736,16 +1053,16 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ng\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count452
+\c@section@level=\count473
 )
 (C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\st
 ringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen192
-\Hy@linkcounter=\count453
-\Hy@pagecounter=\count454
+\@linkdim=\dimen302
+\Hy@linkcounter=\count474
+\Hy@pagecounter=\count475
 
 (C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1en
 c.def
@@ -757,7 +1074,7 @@ Now handling font encoding PD1 ...
 alc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count455
+\Hy@SavedSpaceFactor=\count476
 
 (C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc
 .def
@@ -772,9 +1089,9 @@ Package hyperref Info: Plain pages OFF on input line 4214.
 Package hyperref Info: Backreferencing OFF on input line 4219.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4466.
-\c@Hy@tempcnt=\count456
+\c@Hy@tempcnt=\count477
 LaTeX Info: Redefining \url on input line 4805.
-\XeTeXLinkMargin=\dimen193
+\XeTeXLinkMargin=\dimen303
 
 (C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitse
 t.sty
@@ -785,9 +1102,9 @@ igintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count457
-\Field@Width=\dimen194
-\Fld@charsize=\dimen195
+\Fld@menulength=\count478
+\Field@Width=\dimen304
+\Fld@charsize=\dimen305
 Package hyperref Info: Hyper figures OFF on input line 6091.
 Package hyperref Info: Link nesting OFF on input line 6096.
 Package hyperref Info: Hyper index ON on input line 6099.
@@ -795,17 +1112,17 @@ Package hyperref Info: backreferencing OFF on input line 6106.
 Package hyperref Info: Link coloring OFF on input line 6111.
 Package hyperref Info: Link coloring with OCG OFF on input line 6116.
 Package hyperref Info: PDF/A mode OFF on input line 6121.
-\Hy@abspage=\count458
-\c@Item=\count459
-\c@Hfootnote=\count460
+\Hy@abspage=\count479
+\c@Item=\count480
+\c@Hfootnote=\count481
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdft
 ex.def
 File: hpdftex.def 2026-06-17 v7.01r Hyperref driver for pdfTeX
-\Fld@listcount=\count461
-\c@bookmark@seq@number=\count462
+\Fld@listcount=\count482
+\c@bookmark@seq@number=\count483
 
 (C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck
 \rerunfilecheck.sty
@@ -820,7 +1137,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip83
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 37.
+Package hyperref Info: Option `colorlinks' set `true' on input line 39.
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
@@ -912,17 +1229,17 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\su
 pp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count463
-\scratchdimen=\dimen196
-\scratchbox=\box58
-\nofMPsegments=\count464
-\nofMParguments=\count465
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count466
-\MPscratchDim=\dimen197
-\MPnumerator=\count467
-\makeMPintoPDFobject=\count468
-\everyMPtoPDFconversion=\toks39
+\scratchcounter=\count484
+\scratchdimen=\dimen306
+\scratchbox=\box69
+\nofMPsegments=\count485
+\nofMParguments=\count486
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count487
+\MPscratchDim=\dimen307
+\MPnumerator=\count488
+\makeMPintoPDFobject=\count489
+\everyMPtoPDFconversion=\toks51
 )
 (C:\Users\Jake Mondragon\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\e
 pstopdf-base.sty
@@ -948,7 +1265,7 @@ File: english.lbx 2026/08/13 v3.22 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `main.bcf'.
+\openout4 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
@@ -957,8 +1274,8 @@ Package biblatex Info: Reference section=0 on input line 7.
 Package biblatex Info: Reference segment=0 on input line 7.
 Package hyperref Info: Link coloring ON on input line 7.
  (main.out) (main.out)
-\@outlinefile=\write4
-\openout4 = `main.out'.
+\@outlinefile=\write5
+\openout5 = `main.out'.
 
  [1
 
@@ -1014,42 +1331,27 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 sb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ))
-\tf@toc=\write5
-\openout5 = `main.toc'.
+\tf@toc=\write6
+\openout6 = `main.toc'.
 
  [2
 
-] (main.lof)
-\tf@lof=\write6
-\openout6 = `main.lof'.
+] (Chapters/01-introduction.tex) (Chapters/02-related-work.tex
+[1
 
- [3
-
-] (main.lot)
-\tf@lot=\write7
-\openout7 = `main.lot'.
-
- [4
-
-] (main.loa)
-\tf@loa=\write8
-\openout8 = `main.loa'.
-
- [5
-
-]
-(Chapters/01-introduction.tex) (Chapters/02-related-work.tex [1
-
-{C:/Users/Jake Mondragon/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ma
-thit.enc}]
-[2{C:/Users/Jake Mondragon/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-
-rm.enc}] [3]) (Chapters/03-problem-statement.tex [4])
-(Chapters/04-objectives.tex) (Chapters/05-methodology.tex [5] [6]
+] [2{C:/Users/Jake Mondragon/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/l
+m-mathit.enc}] [3{C:/Users/Jake Mondragon/AppData/Local/Programs/MiKTeX/fonts/e
+nc/dvips/lm/lm-rm.enc}] [4]) (Chapters/03-problem-statement.tex [5])
+(Chapters/04-objectives.tex [6]) (Chapters/05-methodology.tex [7] [8]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 38.
- [7] [8{C:/Users/Jake Mondragon/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/l
-m/lm-mathsy.enc}]) [9{C:/Users/Jake Mondragon/AppData/Local/Programs/MiKTeX/fon
-ts/enc/dvips/lm/lm-mathex.enc}]
+put line 46.
+ [9]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 103.
+
+[10] [11] [12] [13{C:/Users/Jake Mondragon/AppData/Local/Programs/MiKTeX/fonts/
+enc/dvips/lm/lm-mathsy.enc}{C:/Users/Jake Mondragon/AppData/Local/Programs/MiKT
+eX/fonts/enc/dvips/lm/lm-mathex.enc}]) [14] [15]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1064,44 +1366,49 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-[10
+[16
 
-] [11] [12] (main.aux)
+] [17] [18] (main.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-08-10>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FF878EC0C361E416A62909BD74059D69;2921.
+(rerunfilecheck)             Checksum: 5B8263AFFF85A1A61A9EFA367045D4F7;4230.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23570 strings out of 467441
- 417144 string characters out of 5403182
- 1294644 words of memory out of 5000000
- 52321 multiletter control sequences out of 15000+600000
- 686416 words of font info for 153 fonts, out of 8000000 for 9000
+ 34212 strings out of 467441
+ 657191 string characters out of 5403182
+ 1495121 words of memory out of 5000000
+ 62740 multiletter control sequences out of 15000+600000
+ 693971 words of font info for 165 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,9n,70p,1421b,1568s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 97i,10n,107p,1421b,1566s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Jake Mondragon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
 lmbx12.pfb><C:/Users/Jake Mondragon/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/lm/lmcsc10.pfb><C:/Users/Jake Mondragon/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/lm/lmex10.pfb><C:/Users/Jake Mondragon/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Jake Mondragon/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Jake Mondragon/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Jake Mondragon
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Jake M
-ondragon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/User
-s/Jake Mondragon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><
-C:/Users/Jake Mondragon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr
-i12.pfb><C:/Users/Jake Mondragon/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/lm/lmsy10.pfb><C:/Users/Jake Mondragon/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/lm/lmtt12.pfb>
-Output written on main.pdf (17 pages, 307772 bytes).
+iKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Jake Mondragon/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Jake Mondragon/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Jake Mondrago
+n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Jake 
+Mondragon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Use
+rs/Jake Mondragon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb
+><C:/Users/Jake Mondragon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
+mr8.pfb><C:/Users/Jake Mondragon/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/lm/lmri12.pfb><C:/Users/Jake Mondragon/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/lm/lmsy10.pfb><C:/Users/Jake Mondragon/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/lm/lmtt12.pfb>
+Output written on main.pdf (20 pages, 337697 bytes).
 PDF statistics:
- 389 PDF objects out of 1000 (max. 8388607)
- 80 named destinations out of 1000 (max. 500000)
- 31361 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 450 PDF objects out of 1000 (max. 8388607)
+ 89 named destinations out of 1000 (max. 500000)
+ 35509 words of extra memory for PDF output out of 35830 (max. 10000000)
 

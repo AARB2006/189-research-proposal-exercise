@@ -1,3 +1,215 @@
+\newpage
 \section{Methodology}
 \label{ch:methodology}
 
+This section describes the research design, the proposed method, the data and tools to be used, the implementation procedure, and the evaluation of the study. Each part is designed to answer the research questions stated in Section~\ref{ch:problem-statement}.
+
+\subsection{Research Approach or Design}
+\label{sec:m-design}
+
+This study will follow a quantitative, experimental research design. A deep-learning model will be developed and trained on stained rice pollen images, and its performance will be measured and compared with the edge-based protocol of Go et al.~\cite{go2019} under the same testing conditions. The independent variables are the method used (the proposed model or the baseline) and the presence of lumped pollen in the image, while the dependent variables are the detection, classification, and viability-estimation performance of each method.
+
+This design is appropriate because the identified problem is measurable: Go et al.~\cite{go2019} reported a decrease in accuracy from 98.3\% to 85.06\% when pollen grains overlapped. By evaluating both methods on the same images and reporting results separately for images with and without lumped pollen, the study can directly determine whether the proposed method reduces this drop in accuracy.
+
+\subsection{Proposed Solution or Method}
+\label{sec:m-proposed-method}
+
+The study proposes a lightweight YOLOv8 nano instance-segmentation model (YOLOv8n-seg)~\cite{jocher2023yolov8}, pretrained on the COCO dataset~\cite{lin2014coco}, that will be fine-tuned to detect individual rice pollen grains, generate a segmentation mask for each grain, and classify each grain as viable or nonviable. YOLO models treat object detection as a single regression problem, predicting object locations and classes in one pass through the network, which makes them fast enough for practical use~\cite{redmon2016yolo}. The nano variant was selected because it has the fewest parameters among the YOLOv8 models, allowing it to be trained with limited computing resources while reducing the risk of overfitting on a small dataset. Transfer learning~\cite{pan2010transfer} will be applied by freezing the backbone of the pretrained network and training only the remaining layers, which reduces both training time and memory usage.
+
+The proposed method addresses the limitations identified in the literature review as summarized in Table~\ref{tab:limitations}. Unlike the edge-based protocol, which depends on correctly detected boundaries, the instance-segmentation model predicts a separate mask for each grain, allowing touching grains to be identified individually. Copy-paste augmentation~\cite{ghiasi2021} further exposes the model to more overlapping examples during training.
+
+\begin{table}[H]
+    \centering
+    \caption{Limitations of the base study and how the proposed method addresses them}
+    \label{tab:limitations}
+    \begin{tabular}{p{0.44\linewidth} p{0.48\linewidth}}
+        \toprule
+        \textbf{Limitation} & \textbf{Proposed approach} \\
+        \midrule
+        Edge detection fails to separate overlapping or lumped grains~\cite{go2019} & Instance segmentation predicts a separate mask for each grain \\
+        Manually selected image-processing parameters~\cite{go2019} & Features and parameters are learned directly from annotated images \\
+        Few lumped examples available for training & Copy-paste augmentation generates synthetic overlapping grains \\
+        Deep-learning methods not evaluated on rice pollen~\cite{tan2022, li2026pvdt} & Model is trained and evaluated on stained rice pollen from six genotypes \\
+        Effect of overlap not measured in prior studies & Results are reported separately for images with and without lumped pollen \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+During inference, overlapping predictions for the same grain will be reduced to a single prediction using non-maximum suppression~\cite{neubeck2006nms}. The overlap between two regions $A$ and $B$ is measured using the intersection over union (IoU)~\cite{everingham2010pascal}:
+\begin{equation}
+    \mathrm{IoU} = \frac{\text{Area of overlap between } A \text{ and } B}{\text{Area of union of } A \text{ and } B}
+    \label{eq:iou}
+\end{equation}
+The steps of the proposed method are shown in Algorithm~\ref{alg:proposed}.
+
+\begin{algorithm}[H]
+\caption{Proposed pollen viability estimation}
+\label{alg:proposed}
+\begin{algorithmic}[1]
+\Require Microscopic pollen image
+\Ensure Viability percentage of the image
+\State Input the image into the trained YOLOv8n-seg model
+\State Obtain the mask and class (viable or nonviable) of each detected grain
+\State Remove duplicate predictions using non-maximum suppression
+\State Count the viable and nonviable grains
+\State Compute the viability percentage using Eq.~\eqref{eq:viability}
+\end{algorithmic}
+\end{algorithm}
+
+\subsection{Data, Tools, and Technologies}
+\label{sec:m-data-tools}
+
+The study will use the dataset of Go et al.~\cite{go2019}, which consists of stained microscopic pollen images of six rice genotypes: IR68652-3B-8-1, Sadri, CSR28, IR67075-2B-5-2, Rc222, and Pokkali. The dataset is divided into images without lumped pollen and images with lumped pollen, allowing direct comparison with the results reported by Go et al.~\cite{go2019}. Permission to use the dataset will be requested from the original authors. If additional images are needed, new samples will be collected from the same genotypes using the same staining and imaging procedure to maintain consistency with the original dataset.
+
+The software, frameworks, and computational resources required for the study are listed in Table~\ref{tab:tools}.
+
+\begin{table}[H]
+    \centering
+    \caption{Tools and technologies used in the study}
+    \label{tab:tools}
+    \begin{tabular}{p{0.30\linewidth} p{0.62\linewidth}}
+        \toprule
+        \textbf{Tool} & \textbf{Purpose} \\
+        \midrule
+        Python & Programming language for all implementation and analysis \\
+        Ultralytics YOLOv8~\cite{jocher2023yolov8} & Training and inference of the YOLOv8n-seg model \\
+        OpenCV & Re-implementation of the baseline image-analysis protocol \\
+        scikit-learn & $k$-means clustering for the baseline, cross-validation, and evaluation metrics \\
+        Roboflow or CVAT & Annotation of pollen grain outlines and viability labels \\
+        Google Colab (free GPU tier) & Computational resource for model training and testing \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\subsection{Implementation or Experimental Procedures}
+\label{sec:m-procedures}
+
+The overall procedure of the study is illustrated in Figure~\ref{fig:flowchart} and consists of the following steps.
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[
+        node distance=0.6cm and 0.8cm,
+        box/.style={draw, rounded corners, align=center, text width=6cm, minimum height=0.9cm, font={\small\hyphenpenalty=10000\relax}},
+        side/.style={draw, rounded corners, align=center, text width=6cm, minimum height=0.9cm, font={\small\hyphenpenalty=10000\relax}},
+        arrow/.style={-{Stealth}, thick}
+    ]
+        \node[box] (data) {Dataset of Go et al.\\(six rice genotypes)};
+        \node[box, below=of data] (annot) {Annotation of grain outlines\\and viability labels};
+        \node[box, below=of annot] (split) {Stratified 5-fold\\cross-validation split};
+        \node[side, below left=of split, xshift=2.6cm] (aug) {Data augmentation\\(copy-paste, photometric, geometric)};
+        \node[side, below=of aug] (train) {Fine-tuning of YOLOv8n-seg};
+        \node[side, below=of train] (infer) {Inference on testing fold\\with non-maximum suppression};
+        \node[side, below right=of split, xshift=-2.6cm] (base) {Baseline protocol of Go et al.\\(Canny, dilation, region filling,\\$k$-means)};
+        \coordinate (mid) at (infer.south -| split);
+        \node[box, below=0.8cm of mid] (eval) {Evaluation and comparison\\per overlap group};
+
+        \draw[arrow] (data) -- (annot);
+        \draw[arrow] (annot) -- (split);
+        \draw[arrow] (split) -| (aug);
+        \draw[arrow] (split) -| (base);
+        \draw[arrow] (aug) -- (train);
+        \draw[arrow] (train) -- (infer);
+        \draw[arrow] (infer) |- (eval);
+        \draw[arrow] (base) |- (eval);
+    \end{tikzpicture}
+    \caption{Overview of the proposed research procedure}
+    \label{fig:flowchart}
+\end{figure}
+
+\subsubsection{Annotation}
+\label{sec:m-annotation}
+
+Each pollen grain in the dataset will be annotated by tracing its outline as a polygon and labeling it as either viable or nonviable using a free annotation tool such as Roboflow or CVAT. Viability labels will follow the same staining criteria used by Go et al.~\cite{go2019}, in which viable and nonviable grains are distinguished by their stain color. In images with lumped pollen, touching or overlapping grains will be traced individually so that each grain is treated as a separate object. The existing grouping of the dataset into images with and without lumped pollen will be retained for evaluation.
+
+\subsubsection{Dataset Preparation}
+\label{sec:m-dataset-preparation}
+
+Due to the limited number of images in the dataset, a single training and testing split would leave too few images for reliable evaluation. Therefore, stratified 5-fold cross-validation~\cite{kohavi1995} will be used. The images will be divided into five folds, each containing a proportional number of images with and without lumped pollen, as well as images from each genotype. In each round, one fold will serve as the testing set, while the remaining four folds will be used for training, with 20\% of the training images set aside for validation. This process will be repeated five times so that every image is used for testing exactly once, and the results will be combined across all folds.
+
+To compensate for the small dataset, data augmentation will be applied to the training images only. Copy-paste augmentation~\cite{ghiasi2021} will be used to place annotated pollen grains onto other images so that they overlap, increasing the number of lumped examples. Photometric augmentation, including variations in brightness, contrast, and blur, will account for differences in staining and focus, while geometric augmentation such as flipping and rotation will account for differences in grain orientation. The validation and testing images will not be augmented so that evaluation reflects the original images.
+
+\subsubsection{Model Training}
+\label{sec:m-model-training}
+
+Training will be performed using the Ultralytics framework on the free GPU tier of Google Colab. In each fold, the model will be trained with an input size of 640 pixels, a batch size of 8, and a maximum of 50 epochs, using the default optimizer and learning-rate settings of the framework. Mixed-precision training will be used to further reduce memory consumption, and early stopping will end training if the validation performance does not improve for 10 consecutive epochs. The model weights with the best validation performance will then be used for evaluation on the testing fold. Given the small size of the dataset, each training run is expected to take only a few minutes, and all five folds are expected to finish in under an hour.
+
+\subsection{Evaluation and Analysis}
+\label{sec:m-evaluation}
+
+\subsubsection{Baseline Method}
+\label{sec:m-baseline}
+
+To compare the proposed model with the base study, the image-analysis protocol of Go et al.~\cite{go2019} will be re-implemented using OpenCV, as outlined in Algorithm~\ref{alg:baseline}. Following the original configuration, the pipeline will apply Canny edge detection~\cite{canny1986} with a threshold of 70 to find the boundaries of the pollen grains, dilation with a value of 1 to close small gaps in the detected edges, and region filling to fill the interior of each grain~\cite{gonzalez2018}. The detected grains will then be grouped into two clusters using $k$-means clustering~\cite{lloyd1982} with $k = 2$ on the average grayscale intensity of each grain. Since Go et al.~\cite{go2019} do not state which cluster corresponds to viable pollen, this study assumes that the darker cluster represents viable grains, as viable pollen generally absorbs more stain. This assumption will be checked against the annotations before the baseline is evaluated. Because the baseline does not require training, it will be applied directly to the testing fold of each round so that both methods are compared under identical conditions.
+
+\begin{algorithm}[H]
+\caption{Baseline pollen viability identification of Go et al.~\cite{go2019}}
+\label{alg:baseline}
+\begin{algorithmic}[1]
+\Require Microscopic pollen image
+\Ensure Viability percentage of the image
+\State Apply Canny edge detection with a threshold of 70
+\State Apply dilation with a value of 1
+\State Apply region filling to obtain each pollen grain
+\State Compute the average grayscale intensity of each grain
+\State Group the grains into viable and nonviable using $k$-means with $k = 2$
+\State Compute the viability percentage using Eq.~\eqref{eq:viability}
+\end{algorithmic}
+\end{algorithm}
+
+\subsubsection{Performance Metrics}
+\label{sec:m-metrics}
+
+The proposed model and the baseline will be evaluated on the testing folds using the metrics summarized in Table~\ref{tab:evaluation}. A predicted grain will be counted as a true positive ($TP$) if it overlaps an annotated grain with an IoU (Eq.~\eqref{eq:iou}) of at least 0.5, following the PASCAL VOC criterion~\cite{everingham2010pascal}, and its predicted viability class matches the annotation. Incorrect predictions are counted as false positives ($FP$), and annotated grains that were not detected are counted as false negatives ($FN$). From these counts, precision, recall, and F1 score~\cite{sokolova2009} will be computed for each class:
+\begin{equation}
+    \mathrm{Precision} = \frac{TP}{TP + FP}
+    \label{eq:precision}
+\end{equation}
+\begin{equation}
+    \mathrm{Recall} = \frac{TP}{TP + FN}
+    \label{eq:recall}
+\end{equation}
+\begin{equation}
+    F_1 = 2 \times \frac{\mathrm{Precision} \times \mathrm{Recall}}{\mathrm{Precision} + \mathrm{Recall}}
+    \label{eq:f1}
+\end{equation}
+
+To allow direct comparison with the 98.3\% and 85.06\% accuracies reported by Go et al.~\cite{go2019}, the accuracy of each image will also be computed for both methods. Since Go et al.~\cite{go2019} do not provide an explicit formula, accuracy will be measured as the agreement between the automated and manual counts of viable and nonviable grains:
+\begin{equation}
+    \mathrm{Accuracy} = \left(1 - \frac{|\hat{N}_v - N_v| + |\hat{N}_n - N_n|}{N_v + N_n}\right) \times 100
+    \label{eq:accuracy}
+\end{equation}
+where $\hat{N}_v$ and $\hat{N}_n$ are the numbers of viable and nonviable grains counted by the method, and $N_v$ and $N_n$ are the manual counts.
+
+The viability percentage of each image, following Go et al.~\cite{go2019}, is computed as:
+\begin{equation}
+    V = \frac{N_v}{N_v + N_n} \times 100
+    \label{eq:viability}
+\end{equation}
+where $N_v$ and $N_n$ are the numbers of viable and nonviable grains in the image. The estimated viability percentages will be compared with the manual counts using the mean absolute error (MAE)~\cite{willmott2005}:
+\begin{equation}
+    \mathrm{MAE} = \frac{1}{n} \sum_{j=1}^{n} \left| \hat{V}_j - V_j \right|
+    \label{eq:mae}
+\end{equation}
+where $n$ is the number of images, $\hat{V}_j$ is the estimated viability percentage, and $V_j$ is the manual viability percentage of image $j$. A lower MAE indicates closer agreement with manual counting. The Pearson correlation coefficient~\cite{pearson1895} will also be computed to measure how consistently the estimated percentages follow the manual counts, where a value closer to 1 indicates stronger agreement.
+
+\subsubsection{Validation and Analysis Procedure}
+\label{sec:m-analysis}
+
+All metrics will be computed for both methods and reported separately for images with and without lumped pollen to measure the effect of overlap on performance. Since every image is tested exactly once during cross-validation, the predictions from all five testing folds will be pooled before computing the MAE and Pearson correlation. Following Go et al.~\cite{go2019}, the mean, median, maximum, minimum, and standard deviation of the accuracy across images will be reported for each overlap group. The research objectives will be considered achieved if the proposed model shows a smaller decrease in performance between images without and with lumped pollen than the baseline, and if its viability percentages closely agree with the manual counts. Table~\ref{tab:evaluation} summarizes how each research question will be answered.
+
+\begin{table}[H]
+    \centering
+    \caption{Evaluation metrics for each research question}
+    \label{tab:evaluation}
+    \begin{tabular}{p{0.12\linewidth} p{0.38\linewidth} p{0.40\linewidth}}
+        \toprule
+        \textbf{Question} & \textbf{Purpose} & \textbf{Metrics} \\
+        \midrule
+        RQ1 & Detection and viability classification & Precision, recall, and F1 score per class \\
+        RQ2 & Effect of overlap & Metrics computed separately for images with and without lumped pollen \\
+        RQ3 & Comparison with Go et al.~\cite{go2019} & Accuracy, precision, recall, and F1 score of both methods for each overlap group \\
+        RQ4 & Agreement with manual counts & MAE and Pearson correlation of viability percentages \\
+        \bottomrule
+    \end{tabular}
+\end{table}
