@@ -1,2 +1,13 @@
 \section{Problem Statement}
 \label{ch:problem-statement}
+
+Rice pollen viability is commonly assessed by manually counting stained grains under a microscope, which is a slow and labor-intensive process. Go et al.~\cite{go2019} automated this task using an edge-based image-analysis protocol, but accuracy decreased from 98.3\% to 85.06\% when pollen grains overlapped or clustered. Although deep-learning methods have improved the separation of overlapping pollen in other species~\cite{zhang2023, tan2022, li2026pvdt}, they have not been evaluated on rice pollen viability classification. Therefore, there remains a need for an automated method that can reliably classify rice pollen viability even when grains overlap.
+
+Specifically, this study seeks to answer the following questions:
+
+\begin{enumerate}
+    \item How accurately can a YOLO-based instance-segmentation model detect individual rice pollen grains and classify them as viable or nonviable?
+    \item How does the model's performance on isolated grains compare with its performance on lumped grains?
+    \item How does the model compare with the edge-based protocol of Go et al.~\cite{go2019}, particularly on images containing lumped pollen?
+    \item How closely do the model's estimated viability percentages agree with manual pollen counts?
+\end{enumerate}
