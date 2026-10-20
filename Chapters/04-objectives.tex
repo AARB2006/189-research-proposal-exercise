@@ -1,3 +1,22 @@
+
 \newpage
 \section{Objectives}
 \label{ch:objectives}
+
+\subsection{General Objective}
+
+This study aims to develop and evaluate a YOLOv8n-seg-based instance-segmentation model for the automated classification of rice pollen viability, with particular emphasis on identifying individual pollen grains and determining their viability in images containing overlapping or clustered grains.
+
+\subsection{Specific Objectives}
+
+The specific objectives of this study are as follows:
+
+\begin{enumerate}
+    \item To develop and fine-tune a pretrained YOLOv8n-seg model for rice pollen viability classification by identifying individual pollen grains, generating a separate segmentation mask for each detected grain, and classifying each grain as viable or nonviable based on its annotated viability label.
+
+    \item To evaluate the detection and classification performance of the proposed model on images with and without lumped pollen using precision, recall, and F1-score, in order to determine how the presence of overlapping or clustered grains affects its ability to identify and classify individual pollen grains.
+
+    \item To compare the performance of the proposed model with the image-analysis protocol developed by Go et al., which uses edge detection, dilation, region filling, and $k$-means clustering, in order to assess whether instance segmentation provides a more reliable approach to identifying and classifying rice pollen, particularly in images containing lumped pollen.
+
+    \item To assess the reliability of the proposed model's estimated pollen viability percentages by comparing them with manually determined counts, using mean absolute error (MAE) to measure the difference between estimated and manual viability percentages and Pearson correlation to examine the strength of their relationship.
+\end{enumerate}

@@ -3,19 +3,23 @@
 \contentsline {subsection}{\numberline {2.1}Limitations of the Base Study}{2}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Identification and Detection of Pollen Grains}{2}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Detection and Segmentation of Overlapping or Clustered Pollen Grains}{3}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Machine Learning for Adaptive Pollen Viability Classification}{4}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Research Gap Analysis and Possible Research Direction}{5}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.4}Machine Learning for Adaptive Pollen Viability Classification}{3}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Research Gap Analysis and Possible Research Direction}{4}{subsection.2.5}%
 \contentsline {section}{\numberline {3}Problem Statement}{6}{section.3}%
 \contentsline {section}{\numberline {4}Objectives}{7}{section.4}%
-\contentsline {section}{\numberline {5}Methodology}{8}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Research Approach or Design}{8}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Proposed Solution or Method}{8}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Data, Tools, and Technologies}{9}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Implementation or Experimental Procedures}{10}{subsection.5.4}%
-\contentsline {subsubsection}{\numberline {5.4.1}Annotation}{11}{subsubsection.5.4.1}%
-\contentsline {subsubsection}{\numberline {5.4.2}Dataset Preparation}{11}{subsubsection.5.4.2}%
-\contentsline {subsubsection}{\numberline {5.4.3}Model Training}{12}{subsubsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.5}Evaluation and Analysis}{12}{subsection.5.5}%
-\contentsline {subsubsection}{\numberline {5.5.1}Baseline Method}{12}{subsubsection.5.5.1}%
-\contentsline {subsubsection}{\numberline {5.5.2}Performance Metrics}{13}{subsubsection.5.5.2}%
-\contentsline {subsubsection}{\numberline {5.5.3}Validation and Analysis Procedure}{14}{subsubsection.5.5.3}%
+\contentsline {subsection}{\numberline {4.1}General Objective}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Specific Objectives}{7}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Scope and Limitations}{8}{section.5}%
+\contentsline {section}{\numberline {6}Significance of the Study}{9}{section.6}%
+\contentsline {section}{\numberline {7}Methodology}{10}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Research Approach or Design}{10}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Proposed Solution or Method}{10}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Data, Tools, and Technologies}{11}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Implementation or Experimental Procedures}{12}{subsection.7.4}%
+\contentsline {subsubsection}{\numberline {7.4.1}Annotation}{12}{subsubsection.7.4.1}%
+\contentsline {subsubsection}{\numberline {7.4.2}Dataset Preparation}{13}{subsubsection.7.4.2}%
+\contentsline {subsubsection}{\numberline {7.4.3}Model Training}{13}{subsubsection.7.4.3}%
+\contentsline {subsection}{\numberline {7.5}Evaluation and Analysis}{13}{subsection.7.5}%
+\contentsline {subsubsection}{\numberline {7.5.1}Baseline Method}{13}{subsubsection.7.5.1}%
+\contentsline {subsubsection}{\numberline {7.5.2}Performance Metrics}{14}{subsubsection.7.5.2}%
+\contentsline {subsubsection}{\numberline {7.5.3}Validation and Analysis Procedure}{15}{subsubsection.7.5.3}%

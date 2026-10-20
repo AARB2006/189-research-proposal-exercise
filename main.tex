@@ -1,31 +1,93 @@
+
 \documentclass[12pt]{article}
 
 \input{preamble}
-\title{Secret Muna ang Title}
-\author{Mondragon, Agustus}
+
+\title{Evaluating Instance Segmentation for Automated Rice Pollen Viability Classification under Overlapping Conditions}
+
+\author{
+    Jake Mondragon\\
+    jbmondragon@up.edu.ph\\[0.25em]
+    Augustus Balles\\
+    arballes@up.edu.ph
+}
+
 \date{\today}
+
 \begin{document}
 
+\hypersetup{pageanchor=false}
+
+% --------------------------------------------------
+% TITLE PAGE
+% --------------------------------------------------
+
+\makeatletter
+\begin{titlepage}
+    \centering
+    \thispagestyle{empty}
+
+    \vspace*{1.05in}
+
+    {\LARGE\bfseries \@title\par}
+
+    \vspace{0.4in}
+
+    {\large \@author\par}
+
+    \vspace{0.35in}
+
+    {\large
+        CMSC 189: Technical Writing for Computer Science\\
+        College of Science\\
+        University of the Philippines Tacloban College\\
+        Tacloban City, Philippines
+        \par
+    }
+
+    \vspace{0.4in}
+
+    {\large \@date\par}
+
+\end{titlepage}
+\makeatother
+
+% --------------------------------------------------
+% TABLE OF CONTENTS
+% --------------------------------------------------
+
 \pagenumbering{roman}
-\maketitle
-\thispagestyle{empty}
-\clearpage
+\hypersetup{pageanchor=true}
+\renewcommand{\contentsname}{CONTENTS}
 
 \tableofcontents
 \clearpage
+
+% Uncomment if needed:
 % \listoffigures
 % \clearpage
 % \listoftables
 % \clearpage
 % \listofalgorithms
 % \clearpage
+
+% --------------------------------------------------
+% MAIN CHAPTERS
+% --------------------------------------------------
+
 \pagenumbering{arabic}
 
 \input{Chapters/01-introduction}
 \input{Chapters/02-related-work}
 \input{Chapters/03-problem-statement}
 \input{Chapters/04-objectives}
-\input{Chapters/05-methodology}
+\input{Chapters/05-scope}
+\input{Chapters/06-significance}
+\input{Chapters/07-methodology}
+
+% --------------------------------------------------
+% REFERENCES
+% --------------------------------------------------
 
 \clearpage
 \printbibliography
