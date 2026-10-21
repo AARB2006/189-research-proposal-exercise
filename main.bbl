@@ -225,8 +225,8 @@
       \strng{authornamehash}{0ac61aa61d59b1cc2166a7777538626d}
       \strng{authorfullhash}{9694e010e7181371c83c429fd2a454b4}
       \strng{authorfullhashraw}{9694e010e7181371c83c429fd2a454b4}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Experimental Botany}
@@ -238,6 +238,79 @@
       \range{pages}{12}
       \verb{doi}
       \verb 10.1093/jxb/erad315
+      \endverb
+    \endentry
+    \entry{li2026pvdt}{article}{}{}
+      \name{author}{10}{}{%
+        {{hash=e2e65bc31792929cfaa15cecf7f23965}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c31294dd4dac5436249e05f56c113d1a}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=a9bef990b295213c3572572d046906f9}{%
+           family={Mao},
+           familyi={M\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=32e563370422457790db030ab2c13183}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3b9d066eadda6e091eb76cd3c880f6ef}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c9a3728dcc2397d1bab78a791b51779b}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=8afab9bdc9b292debbeb136dfd97036c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cc4aadc875d7abdbaf96dfa4a83d8b77}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=945941a28fcb987e3c51a438dab84740}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8e935d2e8b401b4d9e64ed1f9a77574d}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{5423ef3d1eacdff711572072d4b8b957}
+      \strng{fullhash}{97ff919f8efa9178a16a22267d0cb165}
+      \strng{fullhashraw}{97ff919f8efa9178a16a22267d0cb165}
+      \strng{bibnamehash}{5423ef3d1eacdff711572072d4b8b957}
+      \strng{authorbibnamehash}{5423ef3d1eacdff711572072d4b8b957}
+      \strng{authornamehash}{5423ef3d1eacdff711572072d4b8b957}
+      \strng{authorfullhash}{97ff919f8efa9178a16a22267d0cb165}
+      \strng{authorfullhashraw}{97ff919f8efa9178a16a22267d0cb165}
+      \field{extraname}{1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Artificial Intelligence in Agriculture}
+      \field{title}{{PVDT}: A smart tool for rapid detection of pollen viability}
+      \field{year}{2026}
+      \verb{doi}
+      \verb 10.1016/j.aiia.2026.05.011
       \endverb
     \endentry
     \entry{viertel2022}{article}{}{}
@@ -261,8 +334,8 @@
       \strng{authornamehash}{a5081b50ac571b6ee2e6beef47576427}
       \strng{authorfullhash}{a5081b50ac571b6ee2e6beef47576427}
       \strng{authorfullhashraw}{a5081b50ac571b6ee2e6beef47576427}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Machine Vision and Applications}
@@ -297,8 +370,8 @@
       \strng{authornamehash}{36234e111289aaeffe79cb62028c6c40}
       \strng{authorfullhash}{36234e111289aaeffe79cb62028c6c40}
       \strng{authorfullhashraw}{36234e111289aaeffe79cb62028c6c40}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Sciences}
@@ -494,7 +567,7 @@
       \strng{authornamehash}{dc73eb82d413aea5c979b3637814969e}
       \strng{authorfullhash}{37715b0e3279a0251fdcb30f2fdf643c}
       \strng{authorfullhashraw}{37715b0e3279a0251fdcb30f2fdf643c}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -556,8 +629,8 @@
       \strng{authornamehash}{50c030d4fdf51c4b0d50c643b64b72ea}
       \strng{authorfullhash}{61af3fbe0905b08df5509f9d1326a1aa}
       \strng{authorfullhashraw}{61af3fbe0905b08df5509f9d1326a1aa}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Multimedia Tools and Applications}
@@ -607,8 +680,8 @@
       \strng{authornamehash}{4e14e1f62f22dd693b75d8582f235a11}
       \strng{authorfullhash}{899e02524e83dd891be25d80c97a2718}
       \strng{authorfullhashraw}{899e02524e83dd891be25d80c97a2718}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Paleobiology}
@@ -734,7 +807,7 @@
       \strng{authornamehash}{dc73eb82d413aea5c979b3637814969e}
       \strng{authorfullhash}{6e0deeb9d1653408debde1029df35e2d}
       \strng{authorfullhashraw}{6e0deeb9d1653408debde1029df35e2d}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -785,79 +858,6 @@
       \verb 10.1371/journal.pone.0309674
       \endverb
     \endentry
-    \entry{li2026pvdt}{article}{}{}
-      \name{author}{10}{}{%
-        {{hash=e2e65bc31792929cfaa15cecf7f23965}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=c31294dd4dac5436249e05f56c113d1a}{%
-           family={Du},
-           familyi={D\bibinitperiod},
-           given={X.},
-           giveni={X\bibinitperiod}}}%
-        {{hash=a9bef990b295213c3572572d046906f9}{%
-           family={Mao},
-           familyi={M\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=32e563370422457790db030ab2c13183}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=3b9d066eadda6e091eb76cd3c880f6ef}{%
-           family={Shi},
-           familyi={S\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=c9a3728dcc2397d1bab78a791b51779b}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={X.},
-           giveni={X\bibinitperiod}}}%
-        {{hash=8afab9bdc9b292debbeb136dfd97036c}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=cc4aadc875d7abdbaf96dfa4a83d8b77}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=945941a28fcb987e3c51a438dab84740}{%
-           family={Gu},
-           familyi={G\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=8e935d2e8b401b4d9e64ed1f9a77574d}{%
-           family={Sun},
-           familyi={S\bibinitperiod},
-           given={Q.},
-           giveni={Q\bibinitperiod}}}%
-      }
-      \strng{namehash}{5423ef3d1eacdff711572072d4b8b957}
-      \strng{fullhash}{97ff919f8efa9178a16a22267d0cb165}
-      \strng{fullhashraw}{97ff919f8efa9178a16a22267d0cb165}
-      \strng{bibnamehash}{5423ef3d1eacdff711572072d4b8b957}
-      \strng{authorbibnamehash}{5423ef3d1eacdff711572072d4b8b957}
-      \strng{authornamehash}{5423ef3d1eacdff711572072d4b8b957}
-      \strng{authorfullhash}{97ff919f8efa9178a16a22267d0cb165}
-      \strng{authorfullhashraw}{97ff919f8efa9178a16a22267d0cb165}
-      \field{extraname}{3}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Artificial Intelligence in Agriculture}
-      \field{title}{{PVDT}: A smart tool for rapid detection of pollen viability}
-      \field{year}{2026}
-      \verb{doi}
-      \verb 10.1016/j.aiia.2026.05.011
-      \endverb
-    \endentry
     \entry{jocher2023yolov8}{misc}{}{}
       \name{author}{3}{}{%
         {{hash=0735a4f81dce7804b1b5442a81449fe6}{%
@@ -884,8 +884,8 @@
       \strng{authornamehash}{988722af31219640c3fd30204f902571}
       \strng{authorfullhash}{5ac3f3f31291bcdd8b72bfc9e7778e7b}
       \strng{authorfullhashraw}{5ac3f3f31291bcdd8b72bfc9e7778e7b}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{GitHub repository}
